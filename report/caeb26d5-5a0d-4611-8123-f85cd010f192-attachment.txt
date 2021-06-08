@@ -1,0 +1,24 @@
+INFO     root:base.py:13 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="f0e0cead0e2348603eb35be5b3f9feb5")>
+INFO     root:page_mis_login.py:37 正在调用组合后台登录成功依赖方法，用户名：testid ,密码：testpwd123
+INFO     root:base.py:24 正在调用查找元素方法，查找元素为：('css selector', "[name='username']")
+INFO     root:base.py:39 正在清空：('css selector', "[name='username']")元素
+INFO     root:base.py:42 正在对：('css selector', "[name='username']") 元素进行输入操作，输入值为：testid
+INFO     root:base.py:24 正在调用查找元素方法，查找元素为：('css selector', "[name='password']")
+INFO     root:base.py:39 正在清空：('css selector', "[name='password']")元素
+INFO     root:base.py:42 正在对：('css selector', "[name='password']") 元素进行输入操作，输入值为：testpwd123
+INFO     root:base.py:51 正在执行点击:('css selector', '#inp1') 元素的操作
+INFO     root:base.py:24 正在调用查找元素方法，查找元素为：('css selector', '#inp1')
+INFO     root:base.py:13 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="f0e0cead0e2348603eb35be5b3f9feb5")>
+INFO     root:base.py:51 正在执行点击:('xpath', "//*[text()='信息管理']/.") 元素的操作
+INFO     root:base.py:24 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='信息管理']/.")
+INFO     root:base.py:51 正在执行点击:('xpath', "//*[text()='内容审核']/.") 元素的操作
+INFO     root:base.py:24 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='内容审核']/.")
+INFO     root:base.py:24 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请输入: 文章名称']")
+INFO     root:base.py:39 正在清空：('css selector', "[placeholder='请输入: 文章名称']")元素
+INFO     root:base.py:42 正在对：('css selector', "[placeholder='请输入: 文章名称']") 元素进行输入操作，输入值为：基于vue2.0 +vuex+ element-ui后台管理系统:包括本地开发调试详细步骤 顶 原 荐
+INFO     root:base.py:24 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请输入: 频道']")
+INFO     root:base.py:39 正在清空：('css selector', "[placeholder='请输入: 频道']")元素
+INFO     root:base.py:42 正在对：('css selector', "[placeholder='请输入: 频道']") 元素进行输入操作，输入值为：前端
+INFO     root:base.py:51 正在执行点击:('css selector', '.find') 元素的操作
+INFO     root:base.py:24 正在调用查找元素方法，查找元素为：('css selector', '.find')
+INFO     root:base.py:24 正在调用查找元素方法，查找元素为：('css selector', '.cell>span')

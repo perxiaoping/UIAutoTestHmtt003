@@ -1,0 +1,278 @@
+2021-06-05 11:05:21,887 INFO [base.py(__init__:13)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="beddf2b36dec5e3b84aba9d5630fdbee")>
+2021-06-05 11:05:21,890 INFO [page_mis_login.py(page_mis_login:30)] - 正在调用组合后台登录方法，用户名：testid ,密码：testpwd123
+2021-06-05 11:05:21,891 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='username']")
+2021-06-05 11:05:21,906 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='username']")元素
+2021-06-05 11:05:21,946 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素进行输入操作，输入值为：testid
+2021-06-05 11:05:22,040 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='password']")
+2021-06-05 11:05:22,050 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='password']")元素
+2021-06-05 11:05:22,078 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素进行输入操作，输入值为：testpwd123
+2021-06-05 11:05:22,149 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '#inp1') 元素的操作
+2021-06-05 11:05:22,149 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '#inp1')
+2021-06-05 11:05:22,207 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.user_info')
+2021-06-05 11:05:22,932 INFO [base.py(base_get_test:60)] - 正在执行获取:('css selector', '.user_info') 元素的操作，获取文本为:欢迎 test-管理员
+2021-06-05 11:05:22,932 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.user_info')
+2021-06-05 11:05:22,958 ERROR [test02_mis_login.py(test_mis_login:30)] - assert '管理员1' in '欢迎 test-管理员'
+ +  where '欢迎 test-管理员' = <bound method PageMisLogin.page_get_nickname of <page.page_mis_login.PageMisLogin object at 0x7f835f10ae50>>()
+ +    where <bound method PageMisLogin.page_get_nickname of <page.page_mis_login.PageMisLogin object at 0x7f835f10ae50>> = <page.page_mis_login.PageMisLogin object at 0x7f835f10ae50>.page_get_nickname
+ +      where <page.page_mis_login.PageMisLogin object at 0x7f835f10ae50> = <scripts.test02_mis_login.TestMisLogin object at 0x7f835f0b37c0>.mis
+2021-06-05 11:05:22,960 ERROR [base.py(base_get_img:66)] - 断言出错，正在获取错误截图
+2021-06-05 11:05:23,414 ERROR [base.py(base_get_img:69)] - 断言出错，正在将错误截图写入allure报告
+2021-06-05 16:59:43,448 INFO [base.py(__init__:13)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="5529d0da799cfaea0ab1cc9b218412d0")>
+2021-06-05 16:59:43,448 INFO [page_mis_login.py(page_mis_login_success:37)] - 正在调用组合后台登录成功依赖方法，用户名：testid ,密码：testpwd123
+2021-06-05 16:59:43,448 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='username']")
+2021-06-05 16:59:43,469 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='username']")元素
+2021-06-05 16:59:43,510 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素进行输入操作，输入值为：testid
+2021-06-05 16:59:43,620 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='password']")
+2021-06-05 16:59:43,631 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='password']")元素
+2021-06-05 16:59:43,664 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素进行输入操作，输入值为：testpwd123
+2021-06-05 16:59:43,743 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '#inp1') 元素的操作
+2021-06-05 16:59:43,743 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '#inp1')
+2021-06-05 16:59:43,794 INFO [base.py(__init__:13)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="5529d0da799cfaea0ab1cc9b218412d0")>
+2021-06-05 16:59:44,804 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='信息管理']/.") 元素的操作
+2021-06-05 16:59:44,805 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='信息管理']/.")
+2021-06-05 16:59:45,887 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='内容审核']/.") 元素的操作
+2021-06-05 16:59:45,888 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='内容审核']/.")
+2021-06-05 16:59:46,038 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "placeholder='请输入: 文章名称'")
+2021-06-05 17:03:00,337 INFO [base.py(__init__:13)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="f0e0cead0e2348603eb35be5b3f9feb5")>
+2021-06-05 17:03:00,337 INFO [page_mis_login.py(page_mis_login_success:37)] - 正在调用组合后台登录成功依赖方法，用户名：testid ,密码：testpwd123
+2021-06-05 17:03:00,338 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='username']")
+2021-06-05 17:03:00,353 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='username']")元素
+2021-06-05 17:03:00,395 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素进行输入操作，输入值为：testid
+2021-06-05 17:03:00,498 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='password']")
+2021-06-05 17:03:00,510 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='password']")元素
+2021-06-05 17:03:00,536 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素进行输入操作，输入值为：testpwd123
+2021-06-05 17:03:00,599 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '#inp1') 元素的操作
+2021-06-05 17:03:00,600 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '#inp1')
+2021-06-05 17:03:00,658 INFO [base.py(__init__:13)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="f0e0cead0e2348603eb35be5b3f9feb5")>
+2021-06-05 17:03:01,665 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='信息管理']/.") 元素的操作
+2021-06-05 17:03:01,665 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='信息管理']/.")
+2021-06-05 17:03:02,750 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='内容审核']/.") 元素的操作
+2021-06-05 17:03:02,751 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='内容审核']/.")
+2021-06-05 17:03:02,862 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请输入: 文章名称']")
+2021-06-05 17:03:02,879 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[placeholder='请输入: 文章名称']")元素
+2021-06-05 17:03:02,914 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入: 文章名称']") 元素进行输入操作，输入值为：基于vue2.0 +vuex+ element-ui后台管理系统:包括本地开发调试详细步骤 顶 原 荐
+2021-06-05 17:03:03,059 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请输入: 频道']")
+2021-06-05 17:03:03,071 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[placeholder='请输入: 频道']")元素
+2021-06-05 17:03:03,104 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入: 频道']") 元素进行输入操作，输入值为：前端
+2021-06-05 17:03:03,162 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '.find') 元素的操作
+2021-06-05 17:03:03,163 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.find')
+2021-06-05 17:03:04,224 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.cell>span')
+2021-06-05 17:05:44,919 INFO [base.py(__init__:13)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="58e44cde2ffd5950e7f3cee4907c4087")>
+2021-06-05 17:05:44,919 INFO [page_mis_login.py(page_mis_login_success:37)] - 正在调用组合后台登录成功依赖方法，用户名：testid ,密码：testpwd123
+2021-06-05 17:05:44,920 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='username']")
+2021-06-05 17:05:44,942 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='username']")元素
+2021-06-05 17:05:45,001 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素进行输入操作，输入值为：testid
+2021-06-05 17:05:45,272 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='password']")
+2021-06-05 17:05:45,296 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='password']")元素
+2021-06-05 17:05:45,343 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素进行输入操作，输入值为：testpwd123
+2021-06-05 17:05:45,495 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '#inp1') 元素的操作
+2021-06-05 17:05:45,496 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '#inp1')
+2021-06-05 17:05:45,569 INFO [base.py(__init__:13)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="58e44cde2ffd5950e7f3cee4907c4087")>
+2021-06-05 17:05:46,578 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='信息管理']/.") 元素的操作
+2021-06-05 17:05:46,579 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='信息管理']/.")
+2021-06-05 17:05:47,667 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='内容审核']/.") 元素的操作
+2021-06-05 17:05:47,668 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='内容审核']/.")
+2021-06-05 17:05:47,771 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请输入: 文章名称']")
+2021-06-05 17:05:47,784 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[placeholder='请输入: 文章名称']")元素
+2021-06-05 17:05:47,823 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入: 文章名称']") 元素进行输入操作，输入值为：w3chool
+2021-06-05 17:05:47,880 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请输入: 频道']")
+2021-06-05 17:05:47,895 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[placeholder='请输入: 频道']")元素
+2021-06-05 17:05:47,938 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入: 频道']") 元素进行输入操作，输入值为：开发者资讯
+2021-06-05 17:05:48,003 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '.find') 元素的操作
+2021-06-05 17:05:48,004 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.find')
+2021-06-05 17:05:49,076 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.cell>span')
+2021-06-05 17:50:46,130 INFO [base.py(__init__:13)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="2b37492d1cf7364b32705dac6a6750b8")>
+2021-06-05 17:50:46,133 INFO [page_mis_login.py(page_mis_login_success:37)] - 正在调用组合后台登录成功依赖方法，用户名：testid ,密码：testpwd123
+2021-06-05 17:50:46,135 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='username']")
+2021-06-05 17:50:46,154 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='username']")元素
+2021-06-05 17:50:46,209 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素进行输入操作，输入值为：testid
+2021-06-05 17:50:46,331 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='password']")
+2021-06-05 17:50:46,344 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='password']")元素
+2021-06-05 17:50:46,377 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素进行输入操作，输入值为：testpwd123
+2021-06-05 17:50:46,487 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '#inp1') 元素的操作
+2021-06-05 17:50:46,487 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '#inp1')
+2021-06-05 17:50:46,561 INFO [base.py(__init__:13)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="2b37492d1cf7364b32705dac6a6750b8")>
+2021-06-05 17:50:47,569 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='信息管理']/.") 元素的操作
+2021-06-05 17:50:47,569 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='信息管理']/.")
+2021-06-05 17:50:48,894 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='内容审核']/.") 元素的操作
+2021-06-05 17:50:48,894 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='内容审核']/.")
+2021-06-05 17:50:49,020 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请输入: 文章名称']")
+2021-06-05 17:50:49,038 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[placeholder='请输入: 文章名称']")元素
+2021-06-05 17:50:49,071 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入: 文章名称']") 元素进行输入操作，输入值为：w3chool
+2021-06-05 17:50:49,144 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请输入: 频道']")
+2021-06-05 17:50:49,157 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[placeholder='请输入: 频道']")元素
+2021-06-05 17:50:49,194 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入: 频道']") 元素进行输入操作，输入值为：开发者资讯
+2021-06-05 17:56:17,951 INFO [base.py(__init__:13)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="a83df886172e8c53433bff44fff2b68b")>
+2021-06-05 17:56:17,952 INFO [page_mis_login.py(page_mis_login_success:37)] - 正在调用组合后台登录成功依赖方法，用户名：testid ,密码：testpwd123
+2021-06-05 17:56:17,953 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='username']")
+2021-06-05 17:56:17,971 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='username']")元素
+2021-06-05 17:56:18,022 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素进行输入操作，输入值为：testid
+2021-06-05 17:56:18,153 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='password']")
+2021-06-05 17:56:18,167 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='password']")元素
+2021-06-05 17:56:18,209 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素进行输入操作，输入值为：testpwd123
+2021-06-05 17:56:18,314 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '#inp1') 元素的操作
+2021-06-05 17:56:18,315 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '#inp1')
+2021-06-05 17:56:18,379 INFO [base.py(__init__:13)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="a83df886172e8c53433bff44fff2b68b")>
+2021-06-05 17:56:19,388 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='信息管理']/.") 元素的操作
+2021-06-05 17:56:19,388 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='信息管理']/.")
+2021-06-05 17:56:20,481 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='内容审核']/.") 元素的操作
+2021-06-05 17:56:20,481 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='内容审核']/.")
+2021-06-05 17:56:20,617 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请输入: 文章名称']")
+2021-06-05 17:56:20,638 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[placeholder='请输入: 文章名称']")元素
+2021-06-05 17:56:20,669 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入: 文章名称']") 元素进行输入操作，输入值为：w3chool
+2021-06-05 17:56:20,728 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请输入: 频道']")
+2021-06-05 17:56:20,746 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[placeholder='请输入: 频道']")元素
+2021-06-05 17:56:20,781 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入: 频道']") 元素进行输入操作，输入值为：开发者资讯
+2021-06-05 17:56:20,840 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', "[placeholder='请选择状态']") 元素的操作
+2021-06-05 17:56:20,840 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请选择状态']")
+2021-06-05 17:56:21,935 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='待审核']") 元素的操作
+2021-06-05 17:56:21,936 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='待审核']")
+2021-06-05 17:56:22,053 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '.find') 元素的操作
+2021-06-05 17:56:22,053 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.find')
+2021-06-05 17:56:23,176 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.cell>span')
+2021-06-05 17:56:23,197 INFO [base.py(base_get_test:60)] - 正在执行获取:('css selector', '.cell>span') 元素的操作，获取文本为:1143144557177733120
+2021-06-05 17:56:23,197 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.cell>span')
+2021-06-05 17:56:24,213 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='通过']/..") 元素的操作
+2021-06-05 17:56:24,213 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='通过']/..")
+2021-06-05 17:56:25,292 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '.el-button--primary') 元素的操作
+2021-06-05 17:56:25,293 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.el-button--primary')
+2021-06-05 17:58:31,630 INFO [base.py(__init__:13)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="266e975fb673eddd28c1d2cca820aa7a")>
+2021-06-05 17:58:31,631 INFO [page_mis_login.py(page_mis_login_success:37)] - 正在调用组合后台登录成功依赖方法，用户名：testid ,密码：testpwd123
+2021-06-05 17:58:31,631 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='username']")
+2021-06-05 17:58:31,647 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='username']")元素
+2021-06-05 17:58:31,695 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素进行输入操作，输入值为：testid
+2021-06-05 17:58:31,786 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='password']")
+2021-06-05 17:58:31,795 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='password']")元素
+2021-06-05 17:58:31,827 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素进行输入操作，输入值为：testpwd123
+2021-06-05 17:58:31,884 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '#inp1') 元素的操作
+2021-06-05 17:58:31,885 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '#inp1')
+2021-06-05 17:58:31,946 INFO [base.py(__init__:13)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="266e975fb673eddd28c1d2cca820aa7a")>
+2021-06-05 17:58:32,959 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='信息管理']/.") 元素的操作
+2021-06-05 17:58:32,959 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='信息管理']/.")
+2021-06-05 17:58:34,029 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='内容审核']/.") 元素的操作
+2021-06-05 17:58:34,030 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='内容审核']/.")
+2021-06-05 17:58:34,149 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请输入: 文章名称']")
+2021-06-05 17:58:34,165 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[placeholder='请输入: 文章名称']")元素
+2021-06-05 17:58:34,201 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入: 文章名称']") 元素进行输入操作，输入值为：w3chool
+2021-06-05 17:58:34,272 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请输入: 频道']")
+2021-06-05 17:58:34,286 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[placeholder='请输入: 频道']")元素
+2021-06-05 17:58:34,316 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入: 频道']") 元素进行输入操作，输入值为：开发者资讯
+2021-06-05 17:58:34,391 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', "[placeholder='请选择状态']") 元素的操作
+2021-06-05 17:58:34,392 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请选择状态']")
+2021-06-05 17:58:35,476 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='待审核']") 元素的操作
+2021-06-05 17:58:35,476 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='待审核']")
+2021-06-05 17:58:35,527 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '.find') 元素的操作
+2021-06-05 17:58:35,527 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.find')
+2021-06-05 17:58:36,586 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.cell>span')
+2021-06-05 17:58:36,613 INFO [base.py(base_get_test:60)] - 正在执行获取:('css selector', '.cell>span') 元素的操作，获取文本为:1143144557177733120
+2021-06-05 17:58:36,613 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.cell>span')
+2021-06-05 17:58:37,630 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='通过']/..") 元素的操作
+2021-06-05 17:58:37,630 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='通过']/..")
+2021-06-05 17:58:38,713 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '.el-button--primary') 元素的操作
+2021-06-05 17:58:38,713 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.el-button--primary')
+2021-06-05 17:58:39,768 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.cell>span')
+2021-06-05 17:58:39,781 INFO [base.py(base_get_test:60)] - 正在执行获取:('css selector', '.cell>span') 元素的操作，获取文本为:1143144557177733120
+2021-06-05 17:58:39,781 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.cell>span')
+2021-06-05 18:37:53,875 INFO [base.py(__init__:13)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="b306ece37286138ee5f0607e3fa8582c")>
+2021-06-05 18:37:53,877 INFO [page_mis_login.py(page_mis_login_success:37)] - 正在调用组合后台登录成功依赖方法，用户名：testid ,密码：testpwd123
+2021-06-05 18:37:53,877 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='username']")
+2021-06-05 18:37:53,899 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='username']")元素
+2021-06-05 18:37:53,945 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素进行输入操作，输入值为：testid
+2021-06-05 18:37:54,070 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='password']")
+2021-06-05 18:37:54,083 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='password']")元素
+2021-06-05 18:37:54,182 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素进行输入操作，输入值为：testpwd123
+2021-06-05 18:37:54,394 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '#inp1') 元素的操作
+2021-06-05 18:37:54,394 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '#inp1')
+2021-06-05 18:37:54,512 INFO [base.py(__init__:13)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="b306ece37286138ee5f0607e3fa8582c")>
+2021-06-05 18:37:55,529 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='信息管理']/.") 元素的操作
+2021-06-05 18:37:55,529 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='信息管理']/.")
+2021-06-05 18:37:56,645 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='内容审核']/.") 元素的操作
+2021-06-05 18:37:56,645 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='内容审核']/.")
+2021-06-05 18:37:56,814 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请输入: 文章名称']")
+2021-06-05 18:37:56,838 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[placeholder='请输入: 文章名称']")元素
+2021-06-05 18:37:56,872 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入: 文章名称']") 元素进行输入操作，输入值为：w3chool
+2021-06-05 18:37:56,952 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请输入: 频道']")
+2021-06-05 18:37:56,967 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[placeholder='请输入: 频道']")元素
+2021-06-05 18:37:57,002 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入: 频道']") 元素进行输入操作，输入值为：开发者资讯
+2021-06-05 18:37:57,072 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', "[placeholder='请选择状态']") 元素的操作
+2021-06-05 18:37:57,072 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请选择状态']")
+2021-06-05 18:37:58,247 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='待审核']") 元素的操作
+2021-06-05 18:37:58,248 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='待审核']")
+2021-06-05 18:37:58,296 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '.find') 元素的操作
+2021-06-05 18:37:58,296 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.find')
+2021-06-05 18:37:59,359 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.cell>span')
+2021-06-05 18:39:05,900 INFO [base.py(__init__:13)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="85474dca76d584dcff5c8cb96fc0211f")>
+2021-06-05 18:39:05,901 INFO [page_mis_login.py(page_mis_login_success:37)] - 正在调用组合后台登录成功依赖方法，用户名：testid ,密码：testpwd123
+2021-06-05 18:39:05,901 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='username']")
+2021-06-05 18:39:05,931 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='username']")元素
+2021-06-05 18:39:05,986 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素进行输入操作，输入值为：testid
+2021-06-05 18:39:06,106 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='password']")
+2021-06-05 18:39:06,123 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='password']")元素
+2021-06-05 18:39:06,149 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素进行输入操作，输入值为：testpwd123
+2021-06-05 18:39:06,218 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '#inp1') 元素的操作
+2021-06-05 18:39:06,218 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '#inp1')
+2021-06-05 18:39:06,275 INFO [base.py(__init__:13)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="85474dca76d584dcff5c8cb96fc0211f")>
+2021-06-05 18:39:07,285 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='信息管理']/.") 元素的操作
+2021-06-05 18:39:07,286 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='信息管理']/.")
+2021-06-05 18:39:08,360 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='内容审核']/.") 元素的操作
+2021-06-05 18:39:08,360 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='内容审核']/.")
+2021-06-05 18:39:08,468 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请输入: 文章名称']")
+2021-06-05 18:39:08,488 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[placeholder='请输入: 文章名称']")元素
+2021-06-05 18:39:08,523 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入: 文章名称']") 元素进行输入操作，输入值为：fasdf assdfas
+2021-06-05 18:39:08,588 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请输入: 频道']")
+2021-06-05 18:39:08,599 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[placeholder='请输入: 频道']")元素
+2021-06-05 18:39:08,639 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入: 频道']") 元素进行输入操作，输入值为：开发者资讯
+2021-06-05 18:39:08,688 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', "[placeholder='请选择状态']") 元素的操作
+2021-06-05 18:39:08,689 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请选择状态']")
+2021-06-05 18:39:09,769 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='待审核']") 元素的操作
+2021-06-05 18:39:09,769 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='待审核']")
+2021-06-05 18:39:09,821 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '.find') 元素的操作
+2021-06-05 18:39:09,822 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.find')
+2021-06-05 18:39:10,911 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.cell>span')
+2021-06-05 18:39:10,934 INFO [base.py(base_get_test:60)] - 正在执行获取:('css selector', '.cell>span') 元素的操作，获取文本为:1143154189816299520
+2021-06-05 18:39:10,934 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.cell>span')
+2021-06-05 18:39:11,955 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='通过']/..") 元素的操作
+2021-06-05 18:39:11,956 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='通过']/..")
+2021-06-05 18:39:13,021 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '.el-button--primary') 元素的操作
+2021-06-05 18:39:13,022 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.el-button--primary')
+2021-06-05 18:42:06,628 INFO [base.py(__init__:13)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="4a92fed8c5668429e48e9f4570563941")>
+2021-06-05 18:42:06,629 INFO [page_mis_login.py(page_mis_login_success:37)] - 正在调用组合后台登录成功依赖方法，用户名：testid ,密码：testpwd123
+2021-06-05 18:42:06,629 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='username']")
+2021-06-05 18:42:06,646 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='username']")元素
+2021-06-05 18:42:06,694 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='username']") 元素进行输入操作，输入值为：testid
+2021-06-05 18:42:06,782 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[name='password']")
+2021-06-05 18:42:06,795 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[name='password']")元素
+2021-06-05 18:42:06,826 INFO [base.py(base_input:42)] - 正在对：('css selector', "[name='password']") 元素进行输入操作，输入值为：testpwd123
+2021-06-05 18:42:06,880 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '#inp1') 元素的操作
+2021-06-05 18:42:06,880 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '#inp1')
+2021-06-05 18:42:06,935 INFO [base.py(__init__:13)] - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="4a92fed8c5668429e48e9f4570563941")>
+2021-06-05 18:42:07,944 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='信息管理']/.") 元素的操作
+2021-06-05 18:42:07,945 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='信息管理']/.")
+2021-06-05 18:42:09,033 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='内容审核']/.") 元素的操作
+2021-06-05 18:42:09,033 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='内容审核']/.")
+2021-06-05 18:42:09,157 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请输入: 文章名称']")
+2021-06-05 18:42:09,172 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[placeholder='请输入: 文章名称']")元素
+2021-06-05 18:42:09,205 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入: 文章名称']") 元素进行输入操作，输入值为：虎虎虎虎虎虎
+2021-06-05 18:42:09,279 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请输入: 频道']")
+2021-06-05 18:42:09,294 INFO [base.py(base_input:39)] - 正在清空：('css selector', "[placeholder='请输入: 频道']")元素
+2021-06-05 18:42:09,328 INFO [base.py(base_input:42)] - 正在对：('css selector', "[placeholder='请输入: 频道']") 元素进行输入操作，输入值为：开发者资讯
+2021-06-05 18:42:09,398 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', "[placeholder='请选择状态']") 元素的操作
+2021-06-05 18:42:09,398 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请选择状态']")
+2021-06-05 18:42:10,492 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='待审核']") 元素的操作
+2021-06-05 18:42:10,492 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='待审核']")
+2021-06-05 18:42:10,541 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '.find') 元素的操作
+2021-06-05 18:42:10,541 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.find')
+2021-06-05 18:42:11,603 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.cell>span')
+2021-06-05 18:42:11,631 INFO [base.py(base_get_test:60)] - 正在执行获取:('css selector', '.cell>span') 元素的操作，获取文本为:1143162231005904896
+2021-06-05 18:42:11,631 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.cell>span')
+2021-06-05 18:42:12,647 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='通过']/..") 元素的操作
+2021-06-05 18:42:12,648 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='通过']/..")
+2021-06-05 18:42:13,708 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '.el-button--primary') 元素的操作
+2021-06-05 18:42:13,708 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.el-button--primary')
+2021-06-05 18:42:16,758 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', "[placeholder='请选择状态']") 元素的操作
+2021-06-05 18:42:16,758 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', "[placeholder='请选择状态']")
+2021-06-05 18:42:17,805 INFO [base.py(base_click:51)] - 正在执行点击:('xpath', "//*[text()='审核通过']") 元素的操作
+2021-06-05 18:42:17,806 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='审核通过']")
+2021-06-05 18:42:17,856 INFO [base.py(base_click:51)] - 正在执行点击:('css selector', '.find') 元素的操作
+2021-06-05 18:42:17,857 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('css selector', '.find')
+2021-06-05 18:42:17,901 INFO [base.py(base_find:24)] - 正在调用查找元素方法，查找元素为：('xpath', "//*[text()='1143162231005904896']")

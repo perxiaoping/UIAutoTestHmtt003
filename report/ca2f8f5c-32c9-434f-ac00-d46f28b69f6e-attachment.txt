@@ -1,0 +1,19 @@
+[32mINFO    [0m root:base.py:13 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="beddf2b36dec5e3b84aba9d5630fdbee")>
+[32mINFO    [0m root:page_mis_login.py:30 正在调用组合后台登录方法，用户名：testid ,密码：testpwd123
+[32mINFO    [0m root:base.py:24 正在调用查找元素方法，查找元素为：('css selector', "[name='username']")
+[32mINFO    [0m root:base.py:39 正在清空：('css selector', "[name='username']")元素
+[32mINFO    [0m root:base.py:42 正在对：('css selector', "[name='username']") 元素进行输入操作，输入值为：testid
+[32mINFO    [0m root:base.py:24 正在调用查找元素方法，查找元素为：('css selector', "[name='password']")
+[32mINFO    [0m root:base.py:39 正在清空：('css selector', "[name='password']")元素
+[32mINFO    [0m root:base.py:42 正在对：('css selector', "[name='password']") 元素进行输入操作，输入值为：testpwd123
+[32mINFO    [0m root:base.py:51 正在执行点击:('css selector', '#inp1') 元素的操作
+[32mINFO    [0m root:base.py:24 正在调用查找元素方法，查找元素为：('css selector', '#inp1')
+[32mINFO    [0m root:base.py:24 正在调用查找元素方法，查找元素为：('css selector', '.user_info')
+[32mINFO    [0m root:base.py:60 正在执行获取:('css selector', '.user_info') 元素的操作，获取文本为:欢迎 test-管理员
+[32mINFO    [0m root:base.py:24 正在调用查找元素方法，查找元素为：('css selector', '.user_info')
+[31m[1mERROR   [0m root:test02_mis_login.py:30 assert '管理员1' in '欢迎 test-管理员'
+ +  where '欢迎 test-管理员' = <bound method PageMisLogin.page_get_nickname of <page.page_mis_login.PageMisLogin object at 0x7f835f10ae50>>()
+ +    where <bound method PageMisLogin.page_get_nickname of <page.page_mis_login.PageMisLogin object at 0x7f835f10ae50>> = <page.page_mis_login.PageMisLogin object at 0x7f835f10ae50>.page_get_nickname
+ +      where <page.page_mis_login.PageMisLogin object at 0x7f835f10ae50> = <scripts.test02_mis_login.TestMisLogin object at 0x7f835f0b37c0>.mis
+[31m[1mERROR   [0m root:base.py:66 断言出错，正在获取错误截图
+[31m[1mERROR   [0m root:base.py:69 断言出错，正在将错误截图写入allure报告
